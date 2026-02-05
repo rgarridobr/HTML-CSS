@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+/*body {
+  margin: 0;
+  background: #f6f8fa;
+  color: #1f2937;
+}*/
+
+body {
+  background: var(--bg-page);
+  color: var(--dark-text);
+}
+
+
+/*.hero {
+  background: linear-gradient(
+    rgba(0,0,0,.5),
+    rgba(0,0,0,.5)
+  ), url("https://images.unsplash.com/photo-1505666287591-46bdabfe90b4");
+  background-size: cover;
+  padding: 64px;
+  color: white;
+}
+
+.hero h1 span {
+  color: #34d399;
+}
+
+.badge {
+  background: #10b981;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+}*/
+
+.hero {
+  background: linear-gradient(
+    rgba(6, 95, 70, 0.85),
+    rgba(6, 95, 70, 0.85)
+  ),
+  url("https://images.unsplash.com/photo-1505666287591-46bdabfe90b4");
+  background-size: cover;
+  padding: 64px;
+  color: white;
+}
+
+.hero h1 span {
+  color: #34D399; /* verde mais vivo do título */
+}
+
+.badge {
+  background: #16A34A;
+}
+
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 24px;
+}
+
+/*.card {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.05);
+}
+
+.card strong {
+  font-size: 28px;
+}
+
+.card span {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.green { background: #ecfdf5; }
+.blue { background: #eff6ff; }
+.purple { background: #f5f3ff; }
+
+.orange { color: #f59e0b; }*/
+
+.card {
+  background: var(--white);
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0,0,0,.06);
+}
+
+.card small {
+  color: var(--gray-text);
+}
+
+.card strong {
+  color: var(--dark-text);
+}
+
+.card.green {
+  background: var(--green-soft);
+}
+
+.card.blue {
+  background: var(--blue-soft);
+}
+
+.card.purple {
+  background: var(--purple-soft);
+}
+
+.orange {
+  color: var(--orange-main);
+}
+
+
+.content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+  padding: 24px;
+}
+
+/*.tournament {
+  background: white;
+  padding: 16px;
+  border-radius: 14px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.live {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #10b981;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.soon {
+  background: #f59e0b;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 12px;
+}*/
+
+.tournament {
+  background: var(--white);
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.05);
+}
+
+.live {
+  background: var(--green-main);
+}
+
+.soon {
+  background: var(--orange-main);
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.ranking-card {
+  background: var(--green-soft);
+  border: 2px solid var(--green-main);
+}
+
+.ranking-card strong {
+  color: #15803D;
+}
+
+.ranking-card small {
+  color: var(--gray-text);
+}
+
+
+/*.ranking-card {
+  background: #ecfdf5;
+  border: 2px solid #10b981;
+  padding: 16px;
+  border-radius: 14px;
+}*/
